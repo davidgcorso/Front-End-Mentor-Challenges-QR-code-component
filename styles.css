@@ -9,13 +9,13 @@ body {
     background-color: #d5e1ef;
     font-family: 'Be Vietnam Pro', sans-serif;
 }
+
 main {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center; 
+    justify-content: center;
     flex-direction:column;
-    
 }
 section {
     width: 300px;
@@ -39,6 +39,14 @@ section p {
     font-size: .8rem;
     margin:24px;
 }
-.attribution { font-size: 11px; align-self:self-end; margin: 24px};
-    .attribution a { color: hsl(228, 45%, 44%); };
+footer{
+    font-size: 11px; 
+    position: absolute;
+    bottom: 24px;
+    right: 0;
+    padding-right: 12px;
+};
+footer a { 
+    color: hsl(228, 45%, 44%); 
+};
 
